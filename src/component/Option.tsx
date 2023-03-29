@@ -53,7 +53,7 @@ function Option({}) {
               backgroundColor: item.bgcolor,
               width: width * 0.4,
               height: width * 0.3,
-              margin: 6,
+              margin: width * 0.012,
               borderRadius: 12,
               justifyContent: "center",
               alignItems: "center",
