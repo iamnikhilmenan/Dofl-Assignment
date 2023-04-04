@@ -17,7 +17,7 @@ function Header({ onQRCodehandler, navigation }: any): JSX.Element {
           <Text
             style={{
               fontSize: 14,
-              color: "grey",
+              color: "#8c8c8c",
             }}
           >
             Hello
@@ -25,7 +25,7 @@ function Header({ onQRCodehandler, navigation }: any): JSX.Element {
           <Text
             style={{
               fontSize: 16,
-              color: "black",
+              color: "#231f1e",
             }}
           >
             0xbc...00f2
@@ -36,25 +36,18 @@ function Header({ onQRCodehandler, navigation }: any): JSX.Element {
             flexDirection: "row",
           }}
         >
-          <MaterialIcons name="notifications-active" size={24} color="black" />
+          <MaterialIcons name="notifications-active" size={24} color="#070707" />
           <MaterialIcons
             name="qr-code-scanner"
             size={24}
-            color="black"
+            color="#231f1e"
             style={{ paddingLeft: 12 }}
             onPress={() => onQRCodehandler()}
           />
         </View>
       </View>
-      {/* ///////////////////////////////// */}
-
-      {/* ///////////////////////////////// */}
     </>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {},
-});
 
 export default Header;

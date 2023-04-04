@@ -60,10 +60,10 @@ function Navigator() {
                   style={{
                     fontSize: 12,
                     fontWeight: focused ? "800" : "700",
-                    color: focused ? "#0052FE" : "black",
+                    color: focused ? "#0052FE" : "#231f1e",
                   }}
                 >
-                  Hello
+                  Home
                 </Text>
               </View>
             ),
@@ -84,10 +84,10 @@ function Navigator() {
                   style={{
                     fontSize: 12,
                     fontWeight: focused ? "800" : "700",
-                    color: focused ? "#0052FE" : "black",
+                    color: focused ? "#0052FE" : "#231f1e",
                   }}
                 >
-                  Hello
+                  Portfolio
                 </Text>
               </View>
             ),
@@ -108,10 +108,10 @@ function Navigator() {
                   style={{
                     fontSize: 12,
                     fontWeight: focused ? "800" : "700",
-                    color: focused ? "#0052FE" : "black",
+                    color: focused ? "#0052FE" : "#231f1e",
                   }}
                 >
-                  Hello
+                  Wallet
                 </Text>
               </View>
             ),
@@ -132,10 +132,10 @@ function Navigator() {
                   style={{
                     fontSize: 12,
                     fontWeight: focused ? "800" : "700",
-                    color: focused ? "#0052FE" : "black",
+                    color: focused ? "#0052FE" : "#231f1e",
                   }}
                 >
-                  Hello
+                  Settings
                 </Text>
               </View>
             ),

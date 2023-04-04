@@ -34,8 +34,4 @@ function HomeScreen({}): JSX.Element {
   );
 }
 
-const styles = StyleSheet.create({
-  container: {},
-});
-
 export default HomeScreen;

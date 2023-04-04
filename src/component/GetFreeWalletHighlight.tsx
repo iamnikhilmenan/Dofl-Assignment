@@ -1,8 +1,9 @@
 import React from "react";
 import { View, Text, StyleSheet } from "react-native";
 import { MaterialIcons } from "@expo/vector-icons";
+import { MaterialCommunityIcons } from '@expo/vector-icons';
 
-function GetFreeWalletHighlight({}): JSX.Element {
+function GetFreeWalletHighlight({ }): JSX.Element {
   return (
     <>
       <View
@@ -18,17 +19,26 @@ function GetFreeWalletHighlight({}): JSX.Element {
           borderRadius: 12,
         }}
       >
-        <Text>
-          Get your free{" "}
-          <Text
-            style={{
-              fontWeight: "600",
-            }}
-          >
-            wallet
-          </Text>{" "}
-          username
-        </Text>
+        <View style={{
+          flexDirection: "row",
+          alignItems: "center"
+        }}>
+          <MaterialCommunityIcons name="star-four-points" size={18} color="#FBDE3B" />
+          <Text style={{
+            marginLeft: 4
+          }}>
+            Get your free{" "}
+            <Text
+              style={{
+                fontWeight: "600",
+              }}
+            >
+              wallet
+            </Text>{" "}
+            username
+          </Text>
+        </View>
+
         <MaterialIcons name="chevron-right" size={24} color="black" />
       </View>
     </>

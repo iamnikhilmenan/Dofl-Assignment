@@ -29,7 +29,7 @@ const optionsData = [
     name: "Markets",
     icon: "show-chart",
     bgcolor: "#F8F8F8",
-    color: "#7B8DA3",
+    color: "#697E87",
   },
 ];
 
@@ -57,10 +57,12 @@ function Option({}) {
               borderRadius: 12,
               justifyContent: "center",
               alignItems: "center",
+              borderWidth:0.5,
+              borderColor:"#f5f5f5"
             }}
             key={index.toString()}
           >
-            <MaterialIcons name={item.icon} size={24} color="black" />
+            <MaterialIcons name={item.icon} size={24} color={item.color} />
             <Text
               style={{
                 textTransform: "capitalize",
